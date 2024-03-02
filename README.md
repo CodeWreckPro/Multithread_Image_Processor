@@ -2,12 +2,12 @@
 <p align="center"> <img src="example.gif" alt="Example of Parallelized Image Filter Application"> </p>
 This project demonstrates the efficient use of multithreading to accelerate image processing tasks using Python and the OpenCV library. It applies a filter to an image using a parallelized approach based on the map-reduce paradigm.
 
-##Requirements
+###Requirements
 To run this project, you need to install the following libraries:
 *OpenCV: 'pip install opencv-python'
 *NumPy: 'pip install numpy'
 
-##Usage
+###Usage
 To use the project, simply execute the 'main.py' file:
 ~~~~
 python main.py
@@ -16,7 +16,7 @@ The program will load an image, apply a filter to it, and save the processed ima
 
 Detailed instructions and code examples can be found in the project's documentation [here](docs/README.md).
 
-##Implementation
+###Implementation
 The project consists of three main code files:
 1. * 'main.py': This file orchestrates the image processing task, loads and saves images, and measures performance. It divides the image into smaller chunks, processes each chunk in parallel using a multiprocessing Pool, and combines the processed chunks to form the final processed image.
 2. * 'image_processor.py': This file contains the image processing functions. It defines a class called 'ImageProcessor' that takes a filter type and size as input and processes the image using the specified filter.
@@ -34,16 +34,16 @@ The 'main.py' file performs the following steps:
   * 'blur': Applies a blur filter to the image.
   * 'edge_detection': Applies an edge detection filter to the image.
 
-##Performance Metrics
+###Performance Metrics
 The program measures the execution time of the parallelized image processing compared to a sequential implementation. It records and analyzes the speedup achieved through parallelization.
 
-##Error Handling
+###Error Handling
 The program implements error handling mechanisms for robustness. If an invalid filter type is specified, the program raises a 'ValueError' with a message indicating the invalid filter type.
 
-##Additional Considerations
+###Additional Considerations
 The program can be extended to support different filter types and sizes, as well as dynamic load balancing strategies to distribute work more efficiently among worker processes.
 
-##License
+###License
 This project is licensed under the [MIT License](LICENSE).
 
 ##Acknowledgements
