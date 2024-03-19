@@ -14,7 +14,7 @@ python main.py
 ~~~~
 The program will load an image, apply a filter to it, and save the processed image to disk. The processed image will be saved as 'processed_<image_name>'.
 
-Detailed instructions and code examples can be found in the project's documentation [here](docs/README.md).
+Detailed instructions and code examples can be found in the project's documentation [here](./README.md).
 
 ## Implementation
 The project consists of three main code files:
