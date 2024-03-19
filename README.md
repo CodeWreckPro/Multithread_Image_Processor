@@ -48,6 +48,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 This project uses the OpenCV library for image processing and the multiprocessing library for parallel processing.
-
-##Examples
-<p align="center"> <img src="example_blur.png" alt="Example of Blur Filter"> <img src="example_edge_detection.png" alt="Example of Edge Detection Filter"> </p>
